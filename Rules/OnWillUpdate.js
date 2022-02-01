@@ -3,7 +3,7 @@
  * @param {IClientAPI} clientAPI
  */
 export default function OnWillUpdate(clientAPI) {
-    // Commet
+    // Commet - Chetan
     let dialogs = clientAPI.nativescript.uiDialogsModule;
     return dialogs.confirm("Update now?").then((result) => {
         console.log("Update now? " + result);
